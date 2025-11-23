@@ -124,6 +124,7 @@
 
 @media (min-width: 300px) {
   .sehSqdwL a, .sehSqdwL button {
+    text-decoration: none !important;
     background-color: #003b6d;
     padding: 10px 25px;
     border-radius: 10px;
