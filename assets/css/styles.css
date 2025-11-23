@@ -274,9 +274,9 @@
 }
 
 .ml3r3f .navbar {
-  border: 1px solid #003b6d;
+  padding: .8em 0;
+  /*border: 1px solid #003b6d;*/
   display: flex;
-  padding: 0px;
   border-radius: 35px;
   max-width: 1000px;
   width: 100%;
@@ -478,6 +478,7 @@
 }
 
 .hd904 h3 {
+  font-family: 'DM Sans';
   font-size: 25px;
   font-weight: 600;
   text-align: center;
@@ -517,7 +518,7 @@
 }
 
 .ml39fo40 {
-  padding-top: 20px;
+  padding-top: 3em;
   min-height: 100vh;
 }
 
@@ -569,5 +570,235 @@
   .div9523 {
     padding: 4em 0;
   }
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.jeiu3fneffiu3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+}
+
+.mlo332 {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.dmlgi33 {
+  overflow-y: auto;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  min-width: 50%;
+  padding: 0px 1em;
+  min-height: 100vh;
+}
+
+.dmhd32 {
+  background-color: #ffffff;
+  top: 0;
+  position: sticky;
+  border-bottom: 1px dashed grey;
+  padding: 2em 0 1em 0;
+  margin-bottom: 2em;
+}
+
+.dmhd32 h3 {
+  text-align: center;
+  font-family: 'DM Sans';
+  font-size: 30px;
+  font-weight: 700;
+  padding: 1em 0px 0px 0px;
+}
+
+.dmhd32 p {
+  margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Inter';
+  color: #000000 !important;
+}
+
+.dmv932 {
+  padding: 1em 4px;
+}
+
+.dmv932 h5 {
+  margin-bottom: 1.5em;
+  font-family: 'DM Sans';
+  font-size: 18px;
+}
+
+.radial232 {
+  display: block;
+}
+
+.dmv932 label {
+  text-transform: capitalize;
+}
+
+.dmv932 select {
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.bgmcolumne3 {
+  width: 100%;
+  max-width: 48%;
+  justify-content: center;
+  align-items: end;
+  display: flex;
+  background-color: #00285a;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bgmcolumne3 img {
+  width: 100%;
+}
+
+.ji8983jf3f {
+  width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+}
+
+.mlo3r {
+  width: 100%;
+  max-width: 800px;
+}
+
+@media (min-width: 992px) {
+  .radial232 {
+    display: grid;
+    row-gap: 21px;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (min-width: 992px) {
+  .dmhd32 h3 {
+    font-size: 40px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 992px) {
+  .dmhd32 p {
+    text-align: start;
+  }
+}
+
+.eko2 {
+  padding: 0 0 2em 0;
+  max-width: 670px;
+  width: 100%;
+}
+
+.np3r3 label {
+  display: block;
+  font-weight: 600;
+  font-family: 'Inter';
+}
+
+.np3r3 input {
+  width: 100%;
+  border: 1px solid #E2E8F0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.np3r3 {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 992px) {
+  .mlopy {
+    gap: 15px;
+    display: flex;
+  }
+}
+
+.np3r3 input:focus {
+  border: initial;
+}
+
+.dmlgi33::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dmlgi33::-webkit-scrollbar-thumb {
+  background: #00285a;
+  border-radius: 10px;
+}
+
+.countryinp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countryinp select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 45px;
+}
+
+.dmv932 button {
+  text-transform: capitalize;
+  max-width: 200px;
+  background-color: #003b6d;
+  width: 100%;
+  border-radius: 10px;
+  padding: initial;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 300px) {
+  .dmvi32 {
+    background-image: url("../../assets/img/noise-light.png");
+    background-color: #003b6d;
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .dmvi32 {
+    padding: 2em 0;
+    display: block;
+  }
+}
+
+.mmlp23 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0 0 0;
+}
+
+.mmlp23 h3 {
+  font-family: 'DM Sans';
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0px;
+  font-weight: 600;
+  font-size: 60px;
 }
 
