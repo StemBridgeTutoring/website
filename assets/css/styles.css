@@ -159,7 +159,7 @@
 @media (min-width: 300px) {
   .NqpbGfzb img {
     width: 100%;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
   }
 }
 
@@ -653,6 +653,7 @@
 }
 
 .bgmcolumne3 {
+  display: none !important;
   width: 100%;
   max-width: 48%;
   justify-content: center;
@@ -801,5 +802,11 @@
   margin: 0px;
   font-weight: 600;
   font-size: 60px;
+}
+
+@media (min-width: 992px) {
+  .bgmcolumne3 {
+    display: flex !important;
+  }
 }
 
